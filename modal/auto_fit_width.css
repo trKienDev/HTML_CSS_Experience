@@ -1,0 +1,14 @@
+.modal {
+    text-align: center;
+}
+
+.modal-dialog-custom {
+    width: auto;
+    max-width: 90vw; /* Điều chỉnh theo viewport để tránh tràn */
+    display: inline-block;
+    text-align: left; /* Nội dung bên trong không bị canh giữa */
+}
+
+.modal-content {
+    overflow-x: auto; /* Thêm scroll ngang nếu cần */
+}
