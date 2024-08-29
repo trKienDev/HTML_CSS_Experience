@@ -1,0 +1,10 @@
+	.salesOrderDetail {
+		width: auto;
+		table-layout: auto;
+	}
+	.salesOrderDetail th,
+	.salesOrderDetail td {
+		white-space: nowrap; /* Prevents text wrapping */
+		overflow: hidden;
+		text-overflow: ellipsis; /* Adds ellipsis for overflow text */
+	}
